@@ -1,0 +1,2 @@
+D:\mingw\mingw64\bin\ar.exe qc ..\..\..\lib\libQuery_base.a CMakeFiles/Query_base.dir/Query_base.cpp.obj
+D:\mingw\mingw64\bin\ranlib.exe ..\..\..\lib\libQuery_base.a

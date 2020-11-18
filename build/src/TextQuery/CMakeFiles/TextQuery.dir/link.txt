@@ -1,0 +1,2 @@
+D:\mingw\mingw64\bin\ar.exe qc ..\..\..\lib\libTextQuery.a CMakeFiles/TextQuery.dir/TextQuery.cpp.obj
+D:\mingw\mingw64\bin\ranlib.exe ..\..\..\lib\libTextQuery.a

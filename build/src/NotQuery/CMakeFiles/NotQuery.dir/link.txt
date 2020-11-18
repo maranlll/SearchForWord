@@ -1,0 +1,2 @@
+D:\mingw\mingw64\bin\ar.exe qc ..\..\..\lib\libNotQuery.a CMakeFiles/NotQuery.dir/NotQuery.cpp.obj
+D:\mingw\mingw64\bin\ranlib.exe ..\..\..\lib\libNotQuery.a

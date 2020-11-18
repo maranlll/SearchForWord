@@ -1,0 +1,1 @@
+ ../../lib/libAndQuery.a ../../lib/libOrQuery.a ../../lib/libBinaryQuery.a ../../lib/libNotQuery.a ../../lib/libQuery.a ../../lib/libWordQuery.a ../../lib/libQuery_base.a ../../lib/libTextQuery.a ../../lib/libQueryResult.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

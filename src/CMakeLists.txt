@@ -1,0 +1,16 @@
+add_subdirectory(QueryResult)
+add_subdirectory(TextQuery)
+add_subdirectory(Query_base)
+add_subdirectory(WordQuery)
+add_subdirectory(Query)
+add_subdirectory(NotQuery)
+add_subdirectory(BinaryQuery)
+add_subdirectory(AndQuery)
+add_subdirectory(OrQuery)
+
+add_executable(main main.cpp)
+
+target_link_libraries(main AndQuery)
+target_link_libraries(main OrQuery)
+target_link_libraries(main BinaryQuery)
+target_link_libraries(main NotQuery)

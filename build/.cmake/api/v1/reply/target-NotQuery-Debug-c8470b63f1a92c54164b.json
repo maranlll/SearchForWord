@@ -1,0 +1,125 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "D:/C++primer/SearchForWord/lib/libNotQuery.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/NotQuery/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "D:/C++primer/SearchForWord/inc"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "QueryResult::@0544da2be185be36a829"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TextQuery::@6a6ddb7d197d0f9d027c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Query_base::@a721feb6e8f84a66fb16"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "WordQuery::@73197386518ea07b6c3a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Query::@5867adef61da5599ccb0"
+		}
+	],
+	"id" : "NotQuery::@da44230f7069a0789b91",
+	"name" : "NotQuery",
+	"nameOnDisk" : "libNotQuery.a",
+	"paths" : 
+	{
+		"build" : "src/NotQuery",
+		"source" : "src/NotQuery"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/NotQuery/NotQuery.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

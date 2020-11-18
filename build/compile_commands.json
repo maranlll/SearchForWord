@@ -1,0 +1,52 @@
+[
+{
+  "directory": "D:/C++primer/SearchForWord/build/src",
+  "command": "g++  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\C++primer\\SearchForWord\\src\\main.cpp",
+  "file": "D:/C++primer/SearchForWord/src/main.cpp"
+},
+{
+  "directory": "D:/C++primer/SearchForWord/build/src/QueryResult",
+  "command": "g++  @CMakeFiles/QueryResult.dir/includes_CXX.rsp -g -o CMakeFiles\\QueryResult.dir\\QueryResult.cpp.obj -c D:\\C++primer\\SearchForWord\\src\\QueryResult\\QueryResult.cpp",
+  "file": "D:/C++primer/SearchForWord/src/QueryResult/QueryResult.cpp"
+},
+{
+  "directory": "D:/C++primer/SearchForWord/build/src/TextQuery",
+  "command": "g++  @CMakeFiles/TextQuery.dir/includes_CXX.rsp -g -o CMakeFiles\\TextQuery.dir\\TextQuery.cpp.obj -c D:\\C++primer\\SearchForWord\\src\\TextQuery\\TextQuery.cpp",
+  "file": "D:/C++primer/SearchForWord/src/TextQuery/TextQuery.cpp"
+},
+{
+  "directory": "D:/C++primer/SearchForWord/build/src/Query_base",
+  "command": "g++  @CMakeFiles/Query_base.dir/includes_CXX.rsp -g -o CMakeFiles\\Query_base.dir\\Query_base.cpp.obj -c D:\\C++primer\\SearchForWord\\src\\Query_base\\Query_base.cpp",
+  "file": "D:/C++primer/SearchForWord/src/Query_base/Query_base.cpp"
+},
+{
+  "directory": "D:/C++primer/SearchForWord/build/src/WordQuery",
+  "command": "g++  @CMakeFiles/WordQuery.dir/includes_CXX.rsp -g -o CMakeFiles\\WordQuery.dir\\WordQuery.cpp.obj -c D:\\C++primer\\SearchForWord\\src\\WordQuery\\WordQuery.cpp",
+  "file": "D:/C++primer/SearchForWord/src/WordQuery/WordQuery.cpp"
+},
+{
+  "directory": "D:/C++primer/SearchForWord/build/src/Query",
+  "command": "g++  @CMakeFiles/Query.dir/includes_CXX.rsp -g -o CMakeFiles\\Query.dir\\Query.cpp.obj -c D:\\C++primer\\SearchForWord\\src\\Query\\Query.cpp",
+  "file": "D:/C++primer/SearchForWord/src/Query/Query.cpp"
+},
+{
+  "directory": "D:/C++primer/SearchForWord/build/src/NotQuery",
+  "command": "g++  @CMakeFiles/NotQuery.dir/includes_CXX.rsp -g -o CMakeFiles\\NotQuery.dir\\NotQuery.cpp.obj -c D:\\C++primer\\SearchForWord\\src\\NotQuery\\NotQuery.cpp",
+  "file": "D:/C++primer/SearchForWord/src/NotQuery/NotQuery.cpp"
+},
+{
+  "directory": "D:/C++primer/SearchForWord/build/src/BinaryQuery",
+  "command": "g++  @CMakeFiles/BinaryQuery.dir/includes_CXX.rsp -g -o CMakeFiles\\BinaryQuery.dir\\BinaryQuery.cpp.obj -c D:\\C++primer\\SearchForWord\\src\\BinaryQuery\\BinaryQuery.cpp",
+  "file": "D:/C++primer/SearchForWord/src/BinaryQuery/BinaryQuery.cpp"
+},
+{
+  "directory": "D:/C++primer/SearchForWord/build/src/AndQuery",
+  "command": "g++  @CMakeFiles/AndQuery.dir/includes_CXX.rsp -g -o CMakeFiles\\AndQuery.dir\\AndQuery.cpp.obj -c D:\\C++primer\\SearchForWord\\src\\AndQuery\\AndQuery.cpp",
+  "file": "D:/C++primer/SearchForWord/src/AndQuery/AndQuery.cpp"
+},
+{
+  "directory": "D:/C++primer/SearchForWord/build/src/OrQuery",
+  "command": "g++  @CMakeFiles/OrQuery.dir/includes_CXX.rsp -g -o CMakeFiles\\OrQuery.dir\\OrQuery.cpp.obj -c D:\\C++primer\\SearchForWord\\src\\OrQuery\\OrQuery.cpp",
+  "file": "D:/C++primer/SearchForWord/src/OrQuery/OrQuery.cpp"
+}
+]

@@ -1,0 +1,2 @@
+D:\mingw\mingw64\bin\ar.exe qc ..\..\..\lib\libBinaryQuery.a CMakeFiles/BinaryQuery.dir/BinaryQuery.cpp.obj
+D:\mingw\mingw64\bin\ranlib.exe ..\..\..\lib\libBinaryQuery.a

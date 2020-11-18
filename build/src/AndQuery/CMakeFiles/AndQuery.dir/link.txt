@@ -1,0 +1,2 @@
+D:\mingw\mingw64\bin\ar.exe qc ..\..\..\lib\libAndQuery.a CMakeFiles/AndQuery.dir/AndQuery.cpp.obj
+D:\mingw\mingw64\bin\ranlib.exe ..\..\..\lib\libAndQuery.a

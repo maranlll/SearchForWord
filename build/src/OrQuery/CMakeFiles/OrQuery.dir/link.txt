@@ -1,0 +1,2 @@
+D:\mingw\mingw64\bin\ar.exe qc ..\..\..\lib\libOrQuery.a CMakeFiles/OrQuery.dir/OrQuery.cpp.obj
+D:\mingw\mingw64\bin\ranlib.exe ..\..\..\lib\libOrQuery.a

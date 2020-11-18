@@ -1,0 +1,27 @@
+{
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "cpp",
+		"body": [
+			"#include <iostream>",
+			"#include <algorithm>",
+			"#include <string>",
+			"#include <cstring>",
+			"#include <cstdio>",
+			"#include <cmath>",
+			"#include <queue>",
+			"#include <vector>",
+			"#include <stack>",
+			"#include <map>",
+			"#include <cstdlib>",
+			"",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"",
+			"    return 0;",
+			"}",
+		],
+		"description": "A cpp file template."
+	}
+}

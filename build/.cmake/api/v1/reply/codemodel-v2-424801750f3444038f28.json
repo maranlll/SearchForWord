@@ -1,0 +1,293 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "src/QueryResult",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/QueryResult",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/TextQuery",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/TextQuery",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/Query_base",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/Query_base",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/WordQuery",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/WordQuery",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/Query",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/Query",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/NotQuery",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/NotQuery",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/BinaryQuery",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/BinaryQuery",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/AndQuery",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/AndQuery",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/OrQuery",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/OrQuery",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "SEARCHFORWORD",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 9,
+					"id" : "AndQuery::@1289c6c0d88c8e7fd069",
+					"jsonFile" : "target-AndQuery-Debug-ec94999329d27aa10f14.json",
+					"name" : "AndQuery",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "BinaryQuery::@a298b9d61ac3940930fa",
+					"jsonFile" : "target-BinaryQuery-Debug-371952d20ae65b83ae1b.json",
+					"name" : "BinaryQuery",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "NotQuery::@da44230f7069a0789b91",
+					"jsonFile" : "target-NotQuery-Debug-c8470b63f1a92c54164b.json",
+					"name" : "NotQuery",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "OrQuery::@5b51a148c0c40bc183fa",
+					"jsonFile" : "target-OrQuery-Debug-b1163191492905c28dd1.json",
+					"name" : "OrQuery",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Query::@5867adef61da5599ccb0",
+					"jsonFile" : "target-Query-Debug-5283231564468e5a31ba.json",
+					"name" : "Query",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "QueryResult::@0544da2be185be36a829",
+					"jsonFile" : "target-QueryResult-Debug-94c6e2abd76e265d29e8.json",
+					"name" : "QueryResult",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Query_base::@a721feb6e8f84a66fb16",
+					"jsonFile" : "target-Query_base-Debug-a9d7ac7e04dad12764d1.json",
+					"name" : "Query_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TextQuery::@6a6ddb7d197d0f9d027c",
+					"jsonFile" : "target-TextQuery-Debug-f848bf1ea56f841493a1.json",
+					"name" : "TextQuery",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "WordQuery::@73197386518ea07b6c3a",
+					"jsonFile" : "target-WordQuery-Debug-6eb3499098459fcefb1f.json",
+					"name" : "WordQuery",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "main::@145eef247bfb46b6828c",
+					"jsonFile" : "target-main-Debug-9eac7e85a56ab335be2d.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C++primer/SearchForWord/build",
+		"source" : "D:/C++primer/SearchForWord"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

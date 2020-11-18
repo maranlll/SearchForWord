@@ -1,0 +1,17 @@
+{
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "cpp",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"",
+			"    return 0;",
+			"}",
+		],
+		"description": "A cpp file template."
+	}
+}

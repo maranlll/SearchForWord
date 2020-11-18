@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "command": "g++",
+    "args": ["-g", "${file}", "-std=c++14", "-o", "${fileDirname}/${fileBasenameNoExtension}.exe"], // 编译命令参数
+    "problemMatcher": {
+        "owner": "cpp",
+        "fileLocation": ["relative", "\\"],
+        "pattern": {
+            "regexp": "^(.*)\\\\(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            "file": 2,
+            "line": 3,
+            "column": 4,
+            "severity": 5,
+            "message": 6
+        }
+    },
+    "tasks": [{
+        "type": "cppbuild",
+        "label": "build",
+        "command": "D:\\mingw\\mingw64\\bin\\g++.exe",
+        "args": [
+            "-g",
+            "${file}",
+            "-std=c++17",
+            "-o",
+            "${fileDirname}\\${fileBasenameNoExtension}.exe"
+        ],
+        "options": {
+            "cwd": "D:\\mingw\\mingw64\\bin"
+        },
+        "problemMatcher": [
+            "$gcc"
+        ],
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        },
+        "detail": "compiler: D:\\mingw\\mingw64\\bin\\g++.exe"
+    }],
+}
